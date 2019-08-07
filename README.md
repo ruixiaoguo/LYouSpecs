@@ -4,9 +4,10 @@
 This repository contains the public [CocoaPods](https://github.com/ruixiaoguo/LYouSpecs.git) specifications.
 
 ## 私有库使用方法
-
-        source 'https://github.com/ruixiaoguo/LYouSpecs.git'
+        
         platform :ios, '10.0'
+        source 'https://github.com/CocoaPods/Specs.git'
+        source 'https://github.com/ruixiaoguo/LYouSpecs.git'
         target 'XXX' do
         ### 私有仓库
                 pod 'XXX'
